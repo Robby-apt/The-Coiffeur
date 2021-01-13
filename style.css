@@ -1,0 +1,763 @@
+/*--- General styling ---*/
+@font-face{
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+*{
+    font-family: Roboto;
+    
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;overflow-x: hidden;
+}
+
+.signupBody,
+.loginBody{
+    background-image: url(Images/edgar-chaparro-m8UvH75I2lI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.dashBody{
+    background-image: url(Images/guilherme-petri-PtOfbGkU3uI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/*--- Home section styling ---*/
+#home{
+    background-image: url(Images/adam-winger-VjRpkGtS55w-unsplash.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg{
+    background-color: rgba(0, 0, 0, .6);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bgAlt{
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+    font-size: 1.25rem;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+}
+
+.id{
+    /* background-color: rosybrown; */
+    display: flex;
+    margin: 0.625rem auto 0.625rem 0.625rem;
+}
+
+#logo{
+    /* background-color: darkblue; */
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: 0 1.25rem 0 0;
+}
+
+#brand{
+    font-size: 1.875rem;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+.visual{
+    background-image: url(Images/Line\ 3.svg);
+    width: 30.5625rem;
+    height: 7.5rem;
+    display: flex;
+    color: #fff;
+}
+
+.navMenu{
+    /* background-color: burlywood; */
+    display: flex;
+    font-size: 1.25rem;
+    margin: auto 1.25rem auto 0;
+}
+
+.navMenuSecond{
+    /* background-color: burlywood; */
+    color: #fff;
+    display: flex;
+    font-size: 1.25rem;
+    margin: auto 1.25rem auto auto;
+}
+
+.navMenuThird{
+    /* background-color: burlywood; */
+    color: #000;
+    display: flex;
+    font-size: 1.25rem;
+    margin: auto 1.25rem auto auto;
+}
+
+.navMenu p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.rightMargin{
+    margin-right: 1.875rem;
+}
+
+.singleLine{
+    padding: 0.625rem;
+}
+
+.icon{
+    width: 2rem;
+}
+
+.internal{
+    padding: 0.4375rem 0;
+    transition: .5s ease-in-out;
+}
+
+.internal:hover{
+    text-decoration: underline #fff 0.125rem;
+}
+
+.external{
+    border: 0.125rem #fff solid;
+    border-radius: 0.3125rem;
+    padding: 0.3125rem 0.625rem;
+    transition: .5s ease-in-out;
+}
+
+.external:hover{
+    background-color: #000;
+    border: 0.125rem #000 solid;
+}
+
+.mainContent{
+    /* background-color: khaki; */
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.eyeCatch{
+    font-weight: bold;
+}
+
+.regulations{
+    margin: 2.5rem 0;
+}
+
+.regulations li{
+    list-style: none;
+    margin-bottom: 1.25rem;
+    text-decoration: underline;
+}
+
+.actionBtn{
+    border: 0.125rem solid #fff;
+    display: inline-block;
+    padding: 0.3125rem 0.625rem;
+    transition: .5s ease-in-out;
+}
+
+.intro{
+    display: flex;
+}
+
+.stylingBody{
+    /* background-color: rosybrown; */
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+h1{
+    font-size: 2.25rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+    text-align: center;
+}
+
+.stylingBody p{
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    text-align: center;
+}
+
+.callToAction{
+    /* background-color: darkblue; */
+    border: 0.125rem solid #fff;
+    display: block;
+    width: max-content;
+    margin: 1.25rem auto 0 auto;
+    padding: 1.25rem;
+    transition: .5s ease-in-out;
+}
+
+.callToAction:hover
+.actionBtn:hover{
+    background-color: #000;
+    border: 00.125rem solid #000;
+    color: #fff;
+}
+
+
+.callToAction p{
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+/*--- About section styling ---*/
+#about{
+    /* background-color: burlywood; */
+    height: 100vh;
+}
+
+.sectionTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#about .sectionTitle{
+    padding-top: 1.25rem;
+}
+
+.brief{
+    margin-top: 1.25rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.slideshow{
+    /* background-color: aquamarine; */
+    margin: 3.75rem auto 0 auto;
+    width: 60rem;
+    height: 44rem;
+    position: relative;
+}
+
+.slide{
+    width: 60rem;
+    height: 44rem;
+}
+
+.readMore{
+    background-color: rgba(0, 0, 0, .6);
+    border: 0.125rem solid #fff;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.3125rem 0.625rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s ease-in-out;
+}
+
+.readMore:hover{
+    background-color: #000;
+    border: 00.125rem solid #000;
+}
+
+.slideControls{
+    /* background-color: salmon; */
+    display: flex;
+
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.pointer{
+    border: 0.125rem solid #000;
+    border-radius: 50%;
+    width: 0.625rem;
+    height: 0.625rem;
+}
+
+.one,
+.two,
+.three{
+    margin-right: 1.25rem;
+}
+
+.one{
+    background-color: #000;
+}
+
+/*--- Services section styling ---*/
+/*#services{
+    background-color: antiquewhite;
+    height: 100vh;
+}*/
+
+.articles{
+    display: flex;
+    margin-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.male{
+    background-image: url(Images/karsten-winegeart-p5dIUQFbme4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    width: 33.75rem;
+    height: 60rem;
+}
+
+.female{
+    background-image: url(Images/joanna-nix-walkup-H4fEMshfwTE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    width: 33.75rem;
+    height: 60rem;
+}
+
+.sDBgOne{
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.sDBgTwo{
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.serviceDisplay{
+    color: #fff;
+    height: 12.875rem;
+    margin-top: 37.9375rem;
+    text-align: center;
+    padding-top: 1.25rem;
+}
+
+.serviceTarget{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+}
+
+.serviceList{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: auto;
+}
+
+/*--- Contact section styling ---*/
+#contact{
+    /* background-color: lavender; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .sectionTitle{
+    margin-top: 1.25rem;
+}
+
+.contactSection{
+    display: flex;
+    filter: drop-shadow(0.625rem 0.625rem 0.25rem rgba(0, 0, 0, 0.25));
+    margin: auto;
+}
+
+.contactSectionAlt{
+    /* background-color: lawngreen; */
+    justify-content: center;
+    display: flex;
+    filter: drop-shadow(0.625rem 0.625rem 0.25rem rgba(0, 0, 0, 0.25));
+    margin-top: 6vh;
+}
+
+.columnGroup{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactPiece{
+    width: 40rem;
+    height: 22.5rem;
+}
+
+.contactImage{
+    background-position: center;
+    background-size: cover;
+}
+
+.firstImage{
+    background-image: url(Images/shari-sirotnak-oM5YoMhTf8E-unsplash.jpg);
+}
+
+.secondImage{
+    background-image: url(Images/alex-mihai-c-FWgYghZrVqU-unsplash.jpg);
+}
+
+.contactDetails{
+    background-color: #fff;
+}
+
+.contactMedia{
+    /* background-color: lightblue; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactPhrase{
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.contactChannels{
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+}
+
+.conclusion{
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
+.socialMedia{
+    margin: 1.25rem 0;
+}
+
+.socialMedia img{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+.ig{
+    margin: 0 1.25rem;
+}
+
+.contactForm{
+    position: relative;
+}
+
+.landingContactForm{
+    /* background-color: khaki; */
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+label{
+    font-size: 1rem;
+}
+
+input{
+    border: 0.125rem solid #000;
+    border-radius: 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+    width: 18.5625rem;
+    height: 1.5625rem;
+}
+
+.formArea{
+    /* background-color: khaki; */
+    position: relative;
+    width: 33.125rem;
+    margin-bottom: 1.5625rem;
+}
+
+.signupBg,
+.loginBg{
+    color: #000;
+    position: relative;
+}
+
+.signupForm,
+.loginForm,
+.bookingForm{
+    /* background-color: aqua; */
+    margin-top: 1.5625rem;
+    /* position: absolute; */
+    /* text-align: center; */
+
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.signupFormBtn,
+.bookFormBtn{
+    background-color: #fff;
+    border: 0.125rem #000 solid;
+    color: #000;
+    display: flex;
+    font-size: 1.25rem;
+    font-family: Roboto;
+    margin: 0 auto;
+    padding: 0.3125rem 0.625rem;
+    transition: .5s ease-in-out;
+    
+}
+
+/* input:{
+    border: #80c6ee;
+} */
+.btnSection{
+    /* background-color: rgb(42, 180, 157); */
+    display: flex;
+    margin-top: 1.25rem;
+}
+.sendBtn{
+    border: 0.125rem solid #000;
+    margin: 0 auto;
+    padding: 0.3125rem 0.625rem;
+    text-align: center;
+    transition: .5s ease-in-out;
+}
+
+.sendBtn:hover,
+.signupFormBtn:hover,
+.bookFormBtn:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: cell;
+}
+
+textarea{
+    border: 0.125rem solid;
+    resize: vertical;
+    /* outline: #80c6ee; */
+}
+
+.formSection{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.formSelection{
+    display: flex;
+    filter: drop-shadow(0.625rem 0.625rem 0.25rem rgba(255, 255, 255, 0.25));
+}
+
+.formSelection p{
+    border-bottom: #000 solid 0.125rem;
+    padding: 0.3125rem 0.625rem;
+    margin: 0;
+}
+
+/* .firstSelector{
+    background-color: rgba(255, 255, 255, 1);
+} */
+
+.secondSelector{
+    border-left: #000 solid 0.125rem;
+    /* background-color: rgba(255, 255, 255, .6); */
+}
+
+.forms{
+    background-color: #fff;
+    filter: drop-shadow(0.625rem 0.625rem 0.25rem rgba(255, 255, 255, 0.25));
+    width: 33.125rem;
+    height: 32.8125rem;
+    position: relative;
+}
+
+.formsAlt{
+    background-color: #fff;
+    filter: drop-shadow(0.625rem 0.625rem 0.25rem rgba(255, 255, 255, 0.25));
+    width: 33.125rem;
+    height: 14.6875rem;
+    position: relative;
+}
+
+.formsThird{
+    background-color: #fff;
+    filter: drop-shadow(0.625rem 0.625rem 0.25rem rgba(255, 255, 255, 0.25));
+    width: 33.125rem;
+    height: 25rem;
+    position: relative;
+}
+
+.formTitle{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1.25rem;
+}
+
+.formStatement{
+    text-align: center;
+    margin-top: 1.25rem;
+}
+
+/*---Staff section styling---*/
+#staff{
+    /* background-color: khaki; */
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.staffIntro{
+    margin: 0 0 auto 0;
+    padding-top: 1.25rem;
+    text-align: center;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow: hidden;
+    margin-bottom: 1.25rem;
+}
+
+.imgRow{
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 33.75rem;
+    overflow: hidden;
+}
+
+.firstRow{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.secondRow{
+    padding-bottom: 1.25rem;
+}
+
+.staffImage{
+    background-color: #fff;
+    filter: drop-shadow(0.625rem 0.625rem 0.25rem rgba(0, 0, 0, 0.25));
+    position: relative;
+    width: 30rem;
+    height: 33.75rem;
+}
+
+.firstStaff{
+    background-image: url(Images/rufus-oyemade-ifGki8ueq54-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.secondStaff{
+    background-image: url(Images/liz-weddon-601QVdIqHFM-unsplash.jpg);
+    background-position: contain;
+    background-size: cover;
+}
+
+.thirdStaff{
+    background-image: url(Images/curtis-powell-3mMvCsW6ZYs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.fourthStaff{
+    background-image: url(Images/jeffery-erhunse-BQMZ5ligqps-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.fifthStaff{
+    background-image: url(Images/gift-habeshaw-OZI_ZE5lpiA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sixthStaff{
+    background-image: url(Images/alex-robinson-OmxCTe8rusY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.staffName{
+    background-color: #000;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*--- Footer styling ---*/
+footer{
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    height: 1.25rem;
+    margin-top: auto;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+}
+
+.membershipFooter{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    overflow: hidden;
+}
